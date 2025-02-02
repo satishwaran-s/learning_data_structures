@@ -71,6 +71,7 @@ print("updated user preferences: ", user_preferences)
 
 
 # dropping empty items
+# time complexity of this algorithm is O(n) which is linear as it iterates the input once
 print("\n\ndropping empty items:")
 '''
 creating a function that takes in a dictionary and
@@ -99,3 +100,22 @@ def update_preferences(user_preferences):
     return new_user_preferences # return the new dictionary
 
 print("\nnew user preference after removing None is: ", update_preferences(user_preferences))
+
+
+# which line produces an error
+print("\n\nto see which line produces an error:")
+# Key: Capital
+# Value: State
+
+CapitalsToStates = {}
+CapitalsToStates["Austin"] = "Texas"
+CapitalsToStates["Albany"] = "New York"
+# print(CapitalsToStates["New York"])
+# print(CapitalsToStates["Austin"])
+
+'''
+the answer is this:
+print(CapitalsToStates["New York"])
+it will produce a key error
+as you can only access key not value
+'''
