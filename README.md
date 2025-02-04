@@ -10,6 +10,7 @@ The goal is to solidify my understanding of fundamental data structures and thei
 Each topic covered in the course will have a dedicated Python file for implementation and experimentation. Here's an overview of the topics explored so far:
 - **Arrays**
 - **Dictionaries**
+- **Sets**
 
 ## How to Use This Repo
 Each Python file is named according to the data structure it explores. You can run these files individually to see the implementation of different operations on these data structures.
