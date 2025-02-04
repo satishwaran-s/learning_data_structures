@@ -96,13 +96,16 @@ def has_unique_characters(data):
     # print(data_length)
 
     if data_length == unique_data_length:
-        print(data)
-        print("same same\n")
+        print("\n",data)
+        print("same same")
+        return data_length == unique_data_length
     else:
-        print("different :(\n")
+        print("\n",data)
+        print("different :(")
+        return data_length == unique_data_length
 
 print(has_unique_characters('sample'))
 print(has_unique_characters('hello world'))
 print(has_unique_characters('michael jackson'))
 print(has_unique_characters('python'))
-print(has_unique_characters('hehe'))
+print(has_unique_characters('hehe')) # different because h e is unique then the other h e is not
