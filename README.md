@@ -12,6 +12,8 @@ Each topic covered in the course will have a dedicated Python file for implement
 - **Dictionaries**
 - **Sets**
 - **Queues**
+- **Stacks**
+- **Programming Basics Glossary**
 
 ## How to Use This Repo
 Each Python file is named according to the data structure it explores. You can run these files individually to see the implementation of different operations on these data structures.
